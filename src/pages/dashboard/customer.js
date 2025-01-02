@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import withAuth from '../utils/withAuth';
-import { removeToken } from '../utils/auth';
+import withAuth from '../../utils/withAuth';
+import { removeToken } from '../../utils/auth-utils';
 import { useRouter } from 'next/router';
-import api from '../utils/api';
+import api from '../../utils/api';
 import { toast } from 'react-toastify';
 
 function CustomerDashboard() {

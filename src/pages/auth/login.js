@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import api from '../utils/api';
-import { setToken, decodeToken, removeToken } from '../utils/auth';
+import api from '../../utils/api';
+import { setToken, decodeToken, removeToken } from '../../utils/auth-utils';
 import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
 

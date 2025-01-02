@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import withAuth from '../utils/withAuth';
-import { getToken, removeToken } from '../utils/auth';
+import withAuth from '../../utils/withAuth';
+import { getToken, removeToken } from '../../utils/auth-utils';
 import { useRouter } from 'next/router';
-import api from '../utils/api';
+import api from '../../utils/api';
 import { toast } from 'react-toastify';
 import { Plus, Edit, Trash2, ChevronDown, ChevronUp } from 'lucide-react';
 
